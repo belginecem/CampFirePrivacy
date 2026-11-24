@@ -1,8 +1,8 @@
-# Kamp Ateşi — Gizlilik Politikası
+# Camp Fire — Gizlilik Politikası
 
 _Son güncelleme: 24 Kasım 2026_
 
-Kamp Ateşi ("uygulama"), küçük grupların ortak görev listeleri ve bir duyuru panosu paylaşması için
+Camp Fire ("uygulama"), küçük grupların ortak görev listeleri ve bir duyuru panosu paylaşması için
 geliştirilmiş bir mobil uygulamadır. Bu politika hangi verileri topladığımızı, nasıl kullandığımızı ve
 haklarını açıklar.
 
@@ -84,7 +84,7 @@ Ecemnur Belgin — belginecem@gmail.com
 
 ---
 
-# Kamp Ateşi — Privacy Policy (English summary)
+# Camp Fire — Privacy Policy (English summary)
 
 _Last updated: November 24, 2026_
 
