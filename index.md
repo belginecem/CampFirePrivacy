@@ -16,6 +16,7 @@ haklarını açıklar.
 | Kamp içeriği (görev listeleri, görevler, son tarihler, atamalar, duyurular, emoji tepkileri) | Uygulamanın temel işlevi: kamp üyeleriyle gerçek zamanlı paylaşım. |
 | Karakter bilgileri (XP, tamamlanan görev sayısı, avatar seçimleri) | Seviyeni ve karakterini sana ve kamp üyelerine göstermek. |
 | Kamp üyeliği ve davet kodu | Kimin hangi kampa erişebileceğini belirlemek. |
+| Uygulama dili (Türkçe/İngilizce) | Bildirimleri senin dilinde göndermek. |
 | Push bildirim jetonu (izin verirsen) | Kampta görev eklendiğinde, tamamlandığında veya sana atandığında ve yeni duyuru paylaşıldığında bildirim göndermek. |
 
 Konum, rehber, fotoğraf, reklam kimliği veya cihaz takibi verisi **toplamıyoruz**. Uygulamada reklam,
@@ -50,7 +51,7 @@ analitik veya üçüncü taraf takip aracı **yoktur**. Verilerin satılmaz ve r
 ## Saklama süresi ve silme
 
 Veriler hesabın açık olduğu sürece saklanır. Hesabını istediğin zaman uygulama içinden silebilirsin:
-**Karakter → sağ üstteki hesap silme simgesi**. Silme işlemi:
+**Karakter → Ayarlar → Hesabımı sil**. Silme işlemi:
 
 - Firebase hesabını ve profilini (görünen ad, e-posta, bildirim jetonu, XP, avatar) kalıcı olarak siler,
 - Apple ile girdiysen uygulamanın Apple hesabına erişiminin iptalini ister,
@@ -91,7 +92,7 @@ _Last updated: November 24, 2026_
 - **Collected:** email and password (for sign-in, handled by Firebase Authentication) or, if you sign in
   with Apple or Google, the name, email and account identifier they provide; display name; camp content you
   create (lists, tasks, due dates, assignments, notes, reactions); camp membership; character data (XP,
-  completed task count, avatar choices); and, if you allow notifications, an Expo push token.
+  completed task count, avatar choices); your app language (so notifications arrive in it); and, if you allow notifications, an Expo push token.
 - **On your device:** the latest copy of your profile and camp and any unsent changes, so the app works
   offline. Removed when you sign out or delete your account.
 - **Not collected:** location, contacts, photos, advertising identifiers. No ads, no analytics, no
@@ -101,8 +102,8 @@ _Last updated: November 24, 2026_
 - **Processors:** Google Firebase (storage and authentication), Apple and Google (only if you use their
   sign-in), Expo Push Notification Service (delivery of notifications). On iPhone the app also asks Apple's
   public App Store address whether a newer version exists; no account data is sent.
-- **Deletion:** delete your account anytime in the app with the delete icon at the top right
-  of **Karakter**. This deletes your account and profile, removes your notes, takes you out of your camp and,
+- **Deletion:** delete your account anytime in the app under
+  **Character → Settings → Delete my account**. This deletes your account and profile, removes your notes, takes you out of your camp and,
   for Apple accounts, requests that the app's access be revoked.
 - **Children:** not directed at children under 13.
 - **Contact:** Ecemnur Belgin — belginecem@gmail.com
